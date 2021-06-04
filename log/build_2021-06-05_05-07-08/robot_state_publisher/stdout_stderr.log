@@ -1,0 +1,66 @@
+[35m[1mScanning dependencies of target robot_state_publisher_solver[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library devel/lib/librobot_state_publisher_solver.so[0m
+[ 33%] Built target robot_state_publisher_solver
+[35m[1mScanning dependencies of target joint_state_listener[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/joint_state_listener.dir/src/joint_state_listener.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library devel/lib/libjoint_state_listener.so[0m
+[ 66%] Built target joint_state_listener
+[35m[1mScanning dependencies of target robot_state_publisher[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/robot_state_publisher.dir/src/robot_state_publisher_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/robot_state_publisher/robot_state_publisher[0m
+[100%] Built target robot_state_publisher
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target joint_states_indexed_bag[0m
+[ 11%] Built target robot_state_publisher_solver
+[ 16%] [32mBuilding CXX object gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 27%] Built target joint_state_listener
+Downloading http://wiki.ros.org/robot_state_publisher/data?action=AttachFile&do=get&target=joint_states_indexed.bag to /home/s/scott_spaces/decadarobotics_devspace/build/robot_state_publisher/devel/share/robot_state_publisher/test/joint_states_indexed.bag... done.
+Checking md5sum on /home/s/scott_spaces/decadarobotics_devspace/build/robot_state_publisher/devel/share/robot_state_publisher/test/joint_states_indexed.bag
+[ 27%] Built target joint_states_indexed_bag
+[ 33%] [32m[1mLinking CXX shared library ../lib/libgtest.so[0m
+[ 33%] Built target gtest
+[35m[1mScanning dependencies of target test_subclass[0m
+[35m[1mScanning dependencies of target test_one_link[0m
+[35m[1mScanning dependencies of target test_joint_states_bag[0m
+[35m[1mScanning dependencies of target test_two_links_moving_joint[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/test_subclass.dir/test/test_subclass.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/test_one_link.dir/test/test_one_link.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_joint_states_bag.dir/test/test_joint_states_bag.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/test_two_links_moving_joint.dir/test/test_two_links_moving_joint.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable devel/lib/robot_state_publisher/test_subclass[0m
+[ 61%] Built target test_subclass
+[35m[1mScanning dependencies of target test_two_links_fixed_joint[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/test_two_links_fixed_joint.dir/test/test_two_links_fixed_joint.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable devel/lib/robot_state_publisher/test_two_links_moving_joint[0m
+[ 77%] [32m[1mLinking CXX executable devel/lib/robot_state_publisher/test_one_link[0m
+[ 77%] Built target test_two_links_moving_joint
+[ 77%] Built target test_one_link
+[35m[1mScanning dependencies of target test_default_constructor[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/test_default_constructor.dir/test/test_default_constructor.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable devel/lib/robot_state_publisher/test_joint_states_bag[0m
+[ 88%] Built target test_joint_states_bag
+[ 94%] [32m[1mLinking CXX executable devel/lib/robot_state_publisher/test_two_links_fixed_joint[0m
+[ 94%] Built target test_two_links_fixed_joint
+[100%] [32m[1mLinking CXX executable devel/lib/robot_state_publisher/test_default_constructor[0m
+[100%] Built target test_default_constructor
+[35m[1mScanning dependencies of target tests[0m
+[100%] Built target tests
+-- Install configuration: "Release"
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/pkgconfig/robot_state_publisher.pc
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/share/robot_state_publisher/cmake/robot_state_publisherConfig.cmake
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/share/robot_state_publisher/cmake/robot_state_publisherConfig-version.cmake
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/share/robot_state_publisher/package.xml
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/share/robot_state_publisher/test/one_link.urdf
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/share/robot_state_publisher/test/pr2.urdf
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/share/robot_state_publisher/test/two_links_fixed_joint.urdf
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/share/robot_state_publisher/test/two_links_moving_joint.urdf
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/librobot_state_publisher_solver.so
+-- Set runtime path of "/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/librobot_state_publisher_solver.so" to ""
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/libjoint_state_listener.so
+-- Set runtime path of "/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/libjoint_state_listener.so" to ""
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/robot_state_publisher/robot_state_publisher
+-- Set runtime path of "/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/robot_state_publisher/robot_state_publisher" to ""
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/include/robot_state_publisher
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/include/robot_state_publisher/robot_state_publisher.h
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/include/robot_state_publisher/joint_state_listener.h

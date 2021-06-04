@@ -1,0 +1,6 @@
+Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_description': /usr/bin/cmake --build /home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_description -- -j4 -l4
+Invoked command in '/home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_description' returned '0': /usr/bin/cmake --build /home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_description -- -j4 -l4
+Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_description': /usr/bin/cmake --build /home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_description --target tests -- -j4 -l4
+Invoked command in '/home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_description' returned '0': /usr/bin/cmake --build /home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_description --target tests -- -j4 -l4
+Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_description': /usr/bin/cmake --install /home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_description
+Invoked command in '/home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_description' returned '0': /usr/bin/cmake --install /home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_description

@@ -1,0 +1,6 @@
+Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/robot_state_publisher': /usr/bin/cmake --build /home/s/scott_spaces/decadarobotics_devspace/build/robot_state_publisher -- -j4 -l4
+Invoked command in '/home/s/scott_spaces/decadarobotics_devspace/build/robot_state_publisher' returned '0': /usr/bin/cmake --build /home/s/scott_spaces/decadarobotics_devspace/build/robot_state_publisher -- -j4 -l4
+Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/robot_state_publisher': /usr/bin/cmake --build /home/s/scott_spaces/decadarobotics_devspace/build/robot_state_publisher --target tests -- -j4 -l4
+Invoked command in '/home/s/scott_spaces/decadarobotics_devspace/build/robot_state_publisher' returned '0': /usr/bin/cmake --build /home/s/scott_spaces/decadarobotics_devspace/build/robot_state_publisher --target tests -- -j4 -l4
+Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/robot_state_publisher': /usr/bin/cmake --install /home/s/scott_spaces/decadarobotics_devspace/build/robot_state_publisher
+Invoked command in '/home/s/scott_spaces/decadarobotics_devspace/build/robot_state_publisher' returned '0': /usr/bin/cmake --install /home/s/scott_spaces/decadarobotics_devspace/build/robot_state_publisher

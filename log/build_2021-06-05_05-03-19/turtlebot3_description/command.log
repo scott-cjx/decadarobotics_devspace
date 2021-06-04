@@ -1,0 +1,1 @@
+Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_description': /usr/bin/cmake /home/s/scott_spaces/decadarobotics_devspace/src/turtlebot3/turtlebot3_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/s/scott_spaces/decadarobotics_devspace/install/turtlebot3_description

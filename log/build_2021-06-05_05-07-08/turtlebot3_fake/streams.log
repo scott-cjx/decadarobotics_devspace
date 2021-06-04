@@ -1,0 +1,174 @@
+[0.031s] Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake': CMAKE_PREFIX_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/x86_64-linux-gnu/pkgconfig:/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/s/scott_spaces/decadarobotics_devspace/src/turtlebot3_simulations/turtlebot3_fake -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/s/scott_spaces/decadarobotics_devspace/install/turtlebot3_fake
+[0.121s] -- The C compiler identification is GNU 9.3.0
+[0.272s] -- The CXX compiler identification is GNU 9.3.0
+[0.280s] -- Check for working C compiler: /usr/bin/cc
+[0.461s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.462s] -- Detecting C compiler ABI info
+[0.604s] -- Detecting C compiler ABI info - done
+[0.627s] -- Detecting C compile features
+[0.629s] -- Detecting C compile features - done
+[0.633s] -- Check for working CXX compiler: /usr/bin/c++
+[0.864s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.865s] -- Detecting CXX compiler ABI info
+[1.110s] -- Detecting CXX compiler ABI info - done
+[1.144s] -- Detecting CXX compile features
+[1.145s] -- Detecting CXX compile features - done
+[1.148s] -- Using CATKIN_DEVEL_PREFIX: /home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake/devel
+[1.148s] -- Using CMAKE_PREFIX_PATH: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher;/opt/ros/noetic
+[1.148s] -- This workspace overlays: /home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher;/opt/ros/noetic
+[1.198s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.198s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.198s] -- Using Debian Python package layout
+[1.284s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[1.284s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[1.600s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.600s] -- Call enable_testing()
+[1.602s] -- Using CATKIN_TEST_RESULTS_DIR: /home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake/test_results
+[2.113s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[2.113s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.114s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.146s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[2.149s] -- Found Threads: TRUE  
+[2.156s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.231s] -- catkin 0.8.10
+[2.232s] -- BUILD_SHARED_LIBS is on
+[2.539s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.041s] -- Configuring done
+[3.081s] -- Generating done
+[3.088s] -- Build files have been written to: /home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake
+[3.103s] Invoked command in '/home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake' returned '0': CMAKE_PREFIX_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/x86_64-linux-gnu/pkgconfig:/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/s/scott_spaces/decadarobotics_devspace/src/turtlebot3_simulations/turtlebot3_fake -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/s/scott_spaces/decadarobotics_devspace/install/turtlebot3_fake
+[3.105s] Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake': CMAKE_PREFIX_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/x86_64-linux-gnu/pkgconfig:/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake -- -j4 -l4
+[3.171s] [35m[1mScanning dependencies of target turtlebot3_msgs_generate_messages_nodejs[0m
+[3.185s] [  0%] Built target turtlebot3_msgs_generate_messages_nodejs
+[3.197s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[3.209s] [  0%] Built target std_msgs_generate_messages_nodejs
+[3.222s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[3.234s] [  0%] Built target std_msgs_generate_messages_cpp
+[3.246s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[3.260s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[3.271s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[3.284s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[3.297s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[3.310s] [  0%] Built target actionlib_msgs_generate_messages_py
+[3.322s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[3.334s] [  0%] Built target actionlib_generate_messages_cpp
+[3.346s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[3.358s] [  0%] Built target roscpp_generate_messages_lisp
+[3.369s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[3.381s] [  0%] Built target actionlib_generate_messages_lisp
+[3.392s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[3.403s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.415s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[3.427s] [  0%] Built target tf_generate_messages_eus
+[3.438s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[3.451s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[3.463s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[3.475s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[3.487s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[3.499s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[3.511s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[3.524s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[3.537s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[3.548s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[3.560s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[3.572s] [  0%] Built target roscpp_generate_messages_cpp
+[3.584s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[3.596s] [  0%] Built target roscpp_generate_messages_py
+[3.607s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[3.619s] [  0%] Built target sensor_msgs_generate_messages_eus
+[3.631s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[3.644s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[3.656s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[3.670s] [  0%] Built target roscpp_generate_messages_eus
+[3.683s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[3.696s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[3.709s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[3.721s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[3.735s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[3.747s] [  0%] Built target tf2_msgs_generate_messages_py
+[3.762s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[3.776s] [  0%] Built target tf2_msgs_generate_messages_eus
+[3.789s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[3.801s] [  0%] Built target sensor_msgs_generate_messages_py
+[3.814s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[3.827s] [  0%] Built target geometry_msgs_generate_messages_py
+[3.841s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[3.854s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[3.867s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[3.881s] [  0%] Built target tf_generate_messages_cpp
+[3.891s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[3.920s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[3.946s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[3.964s] [  0%] Built target nav_msgs_generate_messages_cpp
+[3.980s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[3.996s] [  0%] Built target nav_msgs_generate_messages_eus
+[4.012s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[4.027s] [  0%] Built target nav_msgs_generate_messages_lisp
+[4.043s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[4.057s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[4.073s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[4.086s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[4.101s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[4.115s] [  0%] Built target actionlib_generate_messages_eus
+[4.129s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[4.145s] [  0%] Built target tf_generate_messages_py
+[4.163s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[4.180s] [  0%] Built target std_msgs_generate_messages_eus
+[4.197s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[4.213s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[4.228s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[4.245s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[4.262s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[4.279s] [  0%] Built target actionlib_generate_messages_py
+[4.295s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[4.311s] [  0%] Built target nav_msgs_generate_messages_py
+[4.326s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[4.338s] [  0%] Built target tf_generate_messages_lisp
+[4.351s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[4.365s] [  0%] Built target tf_generate_messages_nodejs
+[4.378s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[4.393s] [  0%] Built target actionlib_generate_messages_nodejs
+[4.405s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[4.419s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[4.434s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[4.447s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[4.462s] [35m[1mScanning dependencies of target turtlebot3_msgs_generate_messages_cpp[0m
+[4.475s] [  0%] Built target turtlebot3_msgs_generate_messages_cpp
+[4.496s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[4.509s] [  0%] Built target std_msgs_generate_messages_py
+[4.521s] [35m[1mScanning dependencies of target turtlebot3_msgs_generate_messages_eus[0m
+[4.533s] [  0%] Built target turtlebot3_msgs_generate_messages_eus
+[4.545s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[4.559s] [  0%] Built target roscpp_generate_messages_nodejs
+[4.571s] [35m[1mScanning dependencies of target turtlebot3_msgs_generate_messages_lisp[0m
+[4.584s] [  0%] Built target turtlebot3_msgs_generate_messages_lisp
+[4.597s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[4.610s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[4.624s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[4.636s] [  0%] Built target geometry_msgs_generate_messages_eus
+[4.650s] [35m[1mScanning dependencies of target turtlebot3_msgs_generate_messages_py[0m
+[4.664s] [  0%] Built target turtlebot3_msgs_generate_messages_py
+[4.676s] [35m[1mScanning dependencies of target turtlebot3_fake_node[0m
+[4.725s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.o[0m
+[9.334s] [100%] [32m[1mLinking CXX executable devel/lib/turtlebot3_fake/turtlebot3_fake_node[0m
+[9.540s] [100%] Built target turtlebot3_fake_node
+[9.552s] Invoked command in '/home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake' returned '0': CMAKE_PREFIX_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/x86_64-linux-gnu/pkgconfig:/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake -- -j4 -l4
+[9.634s] Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake': CMAKE_PREFIX_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/x86_64-linux-gnu/pkgconfig:/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake --target tests -- -j4 -l4
+[9.700s] [35m[1mScanning dependencies of target tests[0m
+[9.713s] Built target tests
+[9.730s] Invoked command in '/home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake' returned '0': CMAKE_PREFIX_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/x86_64-linux-gnu/pkgconfig:/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake --target tests -- -j4 -l4
+[9.817s] Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake': CMAKE_PREFIX_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/x86_64-linux-gnu/pkgconfig:/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake
+[9.834s] -- Install configuration: "Release"
+[9.834s] -- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/turtlebot3_fake/lib/pkgconfig/turtlebot3_fake.pc
+[9.834s] -- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/turtlebot3_fake/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig.cmake
+[9.836s] -- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/turtlebot3_fake/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig-version.cmake
+[9.837s] -- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/turtlebot3_fake/share/turtlebot3_fake/package.xml
+[9.837s] -- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/turtlebot3_fake/lib/turtlebot3_fake/turtlebot3_fake_node
+[9.837s] -- Set runtime path of "/home/s/scott_spaces/decadarobotics_devspace/install/turtlebot3_fake/lib/turtlebot3_fake/turtlebot3_fake_node" to ""
+[9.837s] -- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/turtlebot3_fake/include/turtlebot3_fake
+[9.837s] -- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/turtlebot3_fake/include/turtlebot3_fake/turtlebot3_fake.h
+[9.837s] -- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/turtlebot3_fake/share/turtlebot3_fake/launch
+[9.837s] -- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/turtlebot3_fake/share/turtlebot3_fake/launch/turtlebot3_fake.launch
+[9.837s] -- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/turtlebot3_fake/share/turtlebot3_fake/rviz
+[9.837s] -- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/turtlebot3_fake/share/turtlebot3_fake/rviz/turtlebot3_fake.rviz
+[9.838s] Invoked command in '/home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake' returned '0': CMAKE_PREFIX_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/x86_64-linux-gnu/pkgconfig:/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/s/scott_spaces/decadarobotics_devspace/build/turtlebot3_fake

@@ -1,0 +1,35 @@
+[0.027s] Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/free_fleet': /usr/bin/cmake /home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/free_fleet -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/s/scott_spaces/decadarobotics_devspace/install/free_fleet
+[0.121s] -- The C compiler identification is GNU 9.3.0
+[0.194s] -- The CXX compiler identification is GNU 9.3.0
+[0.200s] -- Check for working C compiler: /usr/bin/cc
+[0.294s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.294s] -- Detecting C compiler ABI info
+[0.390s] -- Detecting C compiler ABI info - done
+[0.397s] -- Detecting C compile features
+[0.398s] -- Detecting C compile features - done
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++
+[0.498s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.498s] -- Detecting CXX compiler ABI info
+[0.587s] -- Detecting CXX compiler ABI info - done
+[0.602s] -- Detecting CXX compile features
+[0.603s] -- Detecting CXX compile features - done
+[0.618s] CMake Error at CMakeLists.txt:15 (find_package):
+[0.618s]   By not providing "FindCycloneDDS.cmake" in CMAKE_MODULE_PATH this project
+[0.618s]   has asked CMake to find a package configuration file provided by
+[0.619s]   "CycloneDDS", but CMake did not find one.
+[0.619s] 
+[0.619s]   Could not find a package configuration file provided by "CycloneDDS" with
+[0.619s]   any of the following names:
+[0.619s] 
+[0.619s]     CycloneDDSConfig.cmake
+[0.619s]     cyclonedds-config.cmake
+[0.620s] 
+[0.620s]   Add the installation prefix of "CycloneDDS" to CMAKE_PREFIX_PATH or set
+[0.620s]   "CycloneDDS_DIR" to a directory containing one of the above files.  If
+[0.620s]   "CycloneDDS" provides a separate development package or SDK, be sure it has
+[0.620s]   been installed.
+[0.620s] 
+[0.620s] 
+[0.621s] -- Configuring incomplete, errors occurred!
+[0.621s] See also "/home/s/scott_spaces/decadarobotics_devspace/build/free_fleet/CMakeFiles/CMakeOutput.log".
+[0.628s] Invoked command in '/home/s/scott_spaces/decadarobotics_devspace/build/free_fleet' returned '1': /usr/bin/cmake /home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/free_fleet -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/s/scott_spaces/decadarobotics_devspace/install/free_fleet

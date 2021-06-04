@@ -1,0 +1,1 @@
+Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/robot_state_publisher': /usr/bin/cmake /home/s/scott_spaces/decadarobotics_devspace/src/robot_state_publisher -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/s/scott_spaces/decadarobotics_devspace/install/robot_state_publisher

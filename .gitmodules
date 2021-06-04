@@ -1,0 +1,25 @@
+[submodule "src/robot_state_publisher"]
+	path = src/robot_state_publisher
+	url = https://github.com/rhaschke/robot_state_publisher
+	branch = noetic-devel
+[submodule "src/turtlebot3_simulations"]
+	path = src/turtlebot3_simulations
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+	branch = noetic-devel
+[submodule "src/turtlebot3"]
+	path = src/turtlebot3
+	url = https://github.com/ROBOTIS-GIT/turtlebot3.git
+	branch = noetic-devel
+[submodule "src/adhoc-simulations"]
+	path = src/adhoc-simulations
+	url = https://github.com/siot-decada-robotics/adhoc-simulations.git
+[submodule "src/decadarobotics_devtest"]
+	path = src/decadarobotics_devtest
+	url = https://github.com/siot-decada-robotics/decadarobotics_devtest.git
+[submodule "src/decadarobotics_demos"]
+	path = src/decadarobotics_demos
+	url = https://github.com/siot-decada-robotics/decadarobotics_demos.git
+[submodule "src/caato"]
+	path = src/caato
+	url = https://github.com/siot-decada-robotics/caato.git
+	branch = scott-devel

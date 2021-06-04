@@ -1,0 +1,818 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/s/scott_spaces/decadarobotics_devspace/build/ff_rviz_plugins_ros1/devel
+-- Using CMAKE_PREFIX_PATH: /home/s/scott_spaces/decadarobotics_devspace/install/free_fleet;/home/s/scott_spaces/decadarobotics_devspace/install/cyclonedds;/opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/s/scott_spaces/decadarobotics_devspace/build/ff_rviz_plugins_ros1/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/s/scott_spaces/decadarobotics_devspace/build/ff_rviz_plugins_ros1
+[35m[1mScanning dependencies of target ff_rviz_plugins_ros1_autogen[0m
+[ 20%] [34m[1mAutomatic MOC for target ff_rviz_plugins_ros1[0m
+[ 20%] Built target ff_rviz_plugins_ros1_autogen
+[35m[1mScanning dependencies of target ff_rviz_plugins_ros1[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ff_rviz_plugins_ros1.dir/ff_rviz_plugins_ros1_autogen/mocs_compilation.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/ff_rviz_plugins_ros1.dir/src/ff_nav_goal_panel.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/ff_rviz_plugins_ros1.dir/src/utilities.cpp.o[0m
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:[m[K In member function ‘[01m[KOgre::Vector3 Ogre::Vector3::perpendicular() const[m[K’:
+[01m[K/usr/include/OGRE/OgreVector3.h:582:20:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  582 |             return [01;35m[Kperp[m[K;
+      |                    [01;35m[K^~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:[m[K In member function ‘[01m[KOgre::Quaternion Ogre::Vector3::getRotationTo(const Ogre::Vector3&, const Ogre::Vector3&) const[m[K’:
+[01m[K/usr/include/OGRE/OgreVector3.h:661:27:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  661 |             Vector3 v0 = *[01;35m[Kthis[m[K;
+      |                           [01;35m[K^~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:662:26:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  662 |             Vector3 v1 = [01;35m[Kdest[m[K;
+      |                          [01;35m[K^~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:670:36:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Quaternion::Quaternion(const Ogre::Quaternion&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  670 |                 return Quaternion::[01;35m[KIDENTITY[m[K;
+      |                                    [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreVector3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreQuaternion.h:172:28:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Quaternion[m[K’ has user-provided ‘[01m[KOgre::Quaternion& Ogre::Quaternion::operator=(const Ogre::Quaternion&)[m[K’
+  172 |         inline Quaternion& [01;36m[Koperator[m[K= (const Quaternion& rkQ)
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:702:20:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Quaternion::Quaternion(const Ogre::Quaternion&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  702 |             return [01;35m[Kq[m[K;
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreVector3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreQuaternion.h:172:28:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Quaternion[m[K’ has user-provided ‘[01m[KOgre::Quaternion& Ogre::Quaternion::operator=(const Ogre::Quaternion&)[m[K’
+  172 |         inline Quaternion& [01;36m[Koperator[m[K= (const Quaternion& rkQ)
+      |                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:[m[K In member function ‘[01m[KOgre::Vector3 Ogre::Vector3::normalisedCopy() const[m[K’:
+[01m[K/usr/include/OGRE/OgreVector3.h:717:28:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  717 |             Vector3 ret = *[01;35m[Kthis[m[K;
+      |                            [01;35m[K^~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:719:20:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  719 |             return [01;35m[Kret[m[K;
+      |                    [01;35m[K^~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:[m[K In member function ‘[01m[KOgre::Vector3 Ogre::Vector3::primaryAxis() const[m[K’:
+[01m[K/usr/include/OGRE/OgreVector3.h:787:48:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  787 |      return x > 0 ? Vector3::UNIT_X : Vector3::[01;35m[KNEGATIVE_UNIT_X[m[K;
+      |                                                [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:789:48:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  789 |      return z > 0 ? Vector3::UNIT_Z : Vector3::[01;35m[KNEGATIVE_UNIT_Z[m[K;
+      |                                                [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:792:48:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  792 |      return y > 0 ? Vector3::UNIT_Y : Vector3::[01;35m[KNEGATIVE_UNIT_Y[m[K;
+      |                                                [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:794:48:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  794 |      return z > 0 ? Vector3::UNIT_Z : Vector3::[01;35m[KNEGATIVE_UNIT_Z[m[K;
+      |                                                [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreNode.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreMatrix4.h:[m[K In member function ‘[01m[KOgre::Vector3 Ogre::Matrix4::operator*(const Ogre::Vector3&) const[m[K’:
+[01m[K/usr/include/OGRE/OgreMatrix4.h:226:20:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  226 |             return [01;35m[Kr[m[K;
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreHardwareBuffer.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreHardwareVertexBuffer.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreVertexIndexData.h:32[m[K,
+                 from [01m[K/usr/include/OGRE/OgreRenderOperation.h:32[m[K,
+                 from [01m[K/usr/include/OGRE/OgreRenderable.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:38[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreException.h:[m[K In static member function ‘[01m[Kstatic Ogre::UnimplementedException Ogre::ExceptionFactory::create(Ogre::ExceptionCodeType<9>, const String&, const String&, const char*, long int)[m[K’:
+[01m[K/usr/include/OGRE/OgreException.h:259:54:[m[K [01;35m[Kwarning: [m[Kparameter ‘[01m[Kcode[m[K’ set but not used [[01;35m[K-Wunused-but-set-parameter[m[K]
+  259 |    [01;35m[KExceptionCodeType<Exception::ERR_NOT_IMPLEMENTED> code[m[K,
+      |    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/OGRE/OgreException.h:[m[K In static member function ‘[01m[Kstatic Ogre::FileNotFoundException Ogre::ExceptionFactory::create(Ogre::ExceptionCodeType<6>, const String&, const String&, const char*, long int)[m[K’:
+[01m[K/usr/include/OGRE/OgreException.h:266:53:[m[K [01;35m[Kwarning: [m[Kparameter ‘[01m[Kcode[m[K’ set but not used [[01;35m[K-Wunused-but-set-parameter[m[K]
+  266 |    [01;35m[KExceptionCodeType<Exception::ERR_FILE_NOT_FOUND> code[m[K,
+      |    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/OGRE/OgreException.h:[m[K In static member function ‘[01m[Kstatic Ogre::IOException Ogre::ExceptionFactory::create(Ogre::ExceptionCodeType<0>, const String&, const String&, const char*, long int)[m[K’:
+[01m[K/usr/include/OGRE/OgreException.h:273:59:[m[K [01;35m[Kwarning: [m[Kparameter ‘[01m[Kcode[m[K’ set but not used [[01;35m[K-Wunused-but-set-parameter[m[K]
+  273 |    [01;35m[KExceptionCodeType<Exception::ERR_CANNOT_WRITE_TO_FILE> code[m[K,
+      |    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/OGRE/OgreException.h:[m[K In static member function ‘[01m[Kstatic Ogre::InvalidStateException Ogre::ExceptionFactory::create(Ogre::ExceptionCodeType<1>, const String&, const String&, const char*, long int)[m[K’:
+[01m[K/usr/include/OGRE/OgreException.h:280:52:[m[K [01;35m[Kwarning: [m[Kparameter ‘[01m[Kcode[m[K’ set but not used [[01;35m[K-Wunused-but-set-parameter[m[K]
+  280 |    [01;35m[KExceptionCodeType<Exception::ERR_INVALID_STATE> code[m[K,
+      |    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/OGRE/OgreException.h:[m[K In static member function ‘[01m[Kstatic Ogre::InvalidParametersException Ogre::ExceptionFactory::create(Ogre::ExceptionCodeType<2>, const String&, const String&, const char*, long int)[m[K’:
+[01m[K/usr/include/OGRE/OgreException.h:287:52:[m[K [01;35m[Kwarning: [m[Kparameter ‘[01m[Kcode[m[K’ set but not used [[01;35m[K-Wunused-but-set-parameter[m[K]
+  287 |    [01;35m[KExceptionCodeType<Exception::ERR_INVALIDPARAMS> code[m[K,
+      |    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/OGRE/OgreException.h:[m[K In static member function ‘[01m[Kstatic Ogre::ItemIdentityException Ogre::ExceptionFactory::create(Ogre::ExceptionCodeType<5>, const String&, const String&, const char*, long int)[m[K’:
+[01m[K/usr/include/OGRE/OgreException.h:294:53:[m[K [01;35m[Kwarning: [m[Kparameter ‘[01m[Kcode[m[K’ set but not used [[01;35m[K-Wunused-but-set-parameter[m[K]
+  294 |    [01;35m[KExceptionCodeType<Exception::ERR_ITEM_NOT_FOUND> code[m[K,
+      |    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/OGRE/OgreException.h:[m[K In static member function ‘[01m[Kstatic Ogre::ItemIdentityException Ogre::ExceptionFactory::create(Ogre::ExceptionCodeType<4>, const String&, const String&, const char*, long int)[m[K’:
+[01m[K/usr/include/OGRE/OgreException.h:301:53:[m[K [01;35m[Kwarning: [m[Kparameter ‘[01m[Kcode[m[K’ set but not used [[01;35m[K-Wunused-but-set-parameter[m[K]
+  301 |    [01;35m[KExceptionCodeType<Exception::ERR_DUPLICATE_ITEM> code[m[K,
+      |    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/OGRE/OgreException.h:[m[K In static member function ‘[01m[Kstatic Ogre::InternalErrorException Ogre::ExceptionFactory::create(Ogre::ExceptionCodeType<7>, const String&, const String&, const char*, long int)[m[K’:
+[01m[K/usr/include/OGRE/OgreException.h:308:53:[m[K [01;35m[Kwarning: [m[Kparameter ‘[01m[Kcode[m[K’ set but not used [[01;35m[K-Wunused-but-set-parameter[m[K]
+  308 |    [01;35m[KExceptionCodeType<Exception::ERR_INTERNAL_ERROR> code[m[K,
+      |    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/OGRE/OgreException.h:[m[K In static member function ‘[01m[Kstatic Ogre::RenderingAPIException Ogre::ExceptionFactory::create(Ogre::ExceptionCodeType<3>, const String&, const String&, const char*, long int)[m[K’:
+[01m[K/usr/include/OGRE/OgreException.h:315:57:[m[K [01;35m[Kwarning: [m[Kparameter ‘[01m[Kcode[m[K’ set but not used [[01;35m[K-Wunused-but-set-parameter[m[K]
+  315 |    [01;35m[KExceptionCodeType<Exception::ERR_RENDERINGAPI_ERROR> code[m[K,
+      |    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/OGRE/OgreException.h:[m[K In static member function ‘[01m[Kstatic Ogre::RuntimeAssertionException Ogre::ExceptionFactory::create(Ogre::ExceptionCodeType<8>, const String&, const String&, const char*, long int)[m[K’:
+[01m[K/usr/include/OGRE/OgreException.h:322:58:[m[K [01;35m[Kwarning: [m[Kparameter ‘[01m[Kcode[m[K’ set but not used [[01;35m[K-Wunused-but-set-parameter[m[K]
+  322 |    [01;35m[KExceptionCodeType<Exception::ERR_RT_ASSERTION_FAILED> code[m[K,
+      |    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreRenderOperation.h:32[m[K,
+                 from [01m[K/usr/include/OGRE/OgreRenderable.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:38[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVertexIndexData.h:[m[K In constructor ‘[01m[KOgre::VertexCacheProfiler::VertexCacheProfiler(unsigned int, Ogre::VertexCacheProfiler::CacheType)[m[K’:
+[01m[K/usr/include/OGRE/OgreVertexIndexData.h:292:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcachetype[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  292 |    VertexCacheProfiler(unsigned int cachesize = 16, [01;35m[KCacheType cachetype = FIFO[m[K )
+      |                                                     [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:[m[K In constructor ‘[01m[KOgre::AxisAlignedBox::AxisAlignedBox()[m[K’:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:91:95:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   91 |   inline AxisAlignedBox() : mMinimum(Vector3::ZERO), mMaximum(Vector3::UNIT_SCALE), mCorners(0[01;35m[K)[m[K
+      |                                                                                               [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:91:95:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   91 |   inline AxisAlignedBox() : mMinimum(Vector3::ZERO), mMaximum(Vector3::UNIT_SCALE), mCorners(0[01;35m[K)[m[K
+      |                                                                                               [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:[m[K In constructor ‘[01m[KOgre::AxisAlignedBox::AxisAlignedBox(Ogre::AxisAlignedBox::Extent)[m[K’:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:98:103:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   98 |   inline AxisAlignedBox(Extent e) : mMinimum(Vector3::ZERO), mMaximum(Vector3::UNIT_SCALE), mCorners(0[01;35m[K)[m[K
+      |                                                                                                       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:98:103:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   98 |   inline AxisAlignedBox(Extent e) : mMinimum(Vector3::ZERO), mMaximum(Vector3::UNIT_SCALE), mCorners(0[01;35m[K)[m[K
+      |                                                                                                       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:[m[K In copy constructor ‘[01m[KOgre::AxisAlignedBox::AxisAlignedBox(const Ogre::AxisAlignedBox&)[m[K’:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:105:123:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  105 |   inline AxisAlignedBox(const AxisAlignedBox & rkBox) : mMinimum(Vector3::ZERO), mMaximum(Vector3::UNIT_SCALE), mCorners(0[01;35m[K)[m[K
+      |                                                                                                                           [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:105:123:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  105 |   inline AxisAlignedBox(const AxisAlignedBox & rkBox) : mMinimum(Vector3::ZERO), mMaximum(Vector3::UNIT_SCALE), mCorners(0[01;35m[K)[m[K
+      |                                                                                                                           [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:[m[K In constructor ‘[01m[KOgre::AxisAlignedBox::AxisAlignedBox(const Ogre::Vector3&, const Ogre::Vector3&)[m[K’:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:116:135:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  116 |   inline AxisAlignedBox( const Vector3& min, const Vector3& max ) : mMinimum(Vector3::ZERO), mMaximum(Vector3::UNIT_SCALE), mCorners(0[01;35m[K)[m[K
+      |                                                                                                                                       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:116:135:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  116 |   inline AxisAlignedBox( const Vector3& min, const Vector3& max ) : mMinimum(Vector3::ZERO), mMaximum(Vector3::UNIT_SCALE), mCorners(0[01;35m[K)[m[K
+      |                                                                                                                                       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:[m[K In constructor ‘[01m[KOgre::AxisAlignedBox::AxisAlignedBox(Ogre::Real, Ogre::Real, Ogre::Real, Ogre::Real, Ogre::Real, Ogre::Real)[m[K’:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:123:100:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  123 |    Real Mx, Real My, Real Mz ) : mMinimum(Vector3::ZERO), mMaximum(Vector3::UNIT_SCALE), mCorners(0[01;35m[K)[m[K
+      |                                                                                                    [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:123:100:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  123 |    Real Mx, Real My, Real Mz ) : mMinimum(Vector3::ZERO), mMaximum(Vector3::UNIT_SCALE), mCorners(0[01;35m[K)[m[K
+      |                                                                                                    [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:[m[K In member function ‘[01m[KOgre::Vector3 Ogre::AxisAlignedBox::getCorner(Ogre::AxisAlignedBox::CornerEnum) const[m[K’:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:334:12:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  334 |     return [01;35m[KmMinimum[m[K;
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:348:12:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  348 |     return [01;35m[KmMaximum[m[K;
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:[m[K In member function ‘[01m[Kvoid Ogre::AxisAlignedBox::merge(const Ogre::AxisAlignedBox&)[m[K’:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:399:19:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  399 |     Vector3 min = [01;35m[KmMinimum[m[K;
+      |                   [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:400:19:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  400 |     Vector3 max = [01;35m[KmMaximum[m[K;
+      |                   [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:[m[K In member function ‘[01m[KOgre::AxisAlignedBox Ogre::AxisAlignedBox::intersection(const Ogre::AxisAlignedBox&) const[m[K’:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:609:21:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  609 |    Vector3 intMin = [01;35m[KmMinimum[m[K;
+      |                     [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:610:30:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  610 |             Vector3 intMax = [01;35m[KmMaximum[m[K;
+      |                              [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:[m[K In member function ‘[01m[KOgre::Vector3 Ogre::AxisAlignedBox::getSize() const[m[K’:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:709:21:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  709 |     return Vector3::[01;35m[KZERO[m[K;
+      |                     [01;35m[K^~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:722:21:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  722 |     return Vector3::[01;35m[KZERO[m[K;
+      |                     [01;35m[K^~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:[m[K In member function ‘[01m[KOgre::Vector3 Ogre::AxisAlignedBox::getHalfSize() const[m[K’:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:731:21:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  731 |     return Vector3::[01;35m[KZERO[m[K;
+      |                     [01;35m[K^~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMesh.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAxisAlignedBox.h:744:21:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  744 |     return Vector3::[01;35m[KZERO[m[K;
+      |                     [01;35m[K^~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreAnimable.h:32[m[K,
+                 from [01m[K/usr/include/OGRE/OgreAnimation.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSkeleton.h:38[m[K,
+                 from [01m[K/usr/include/OGRE/OgreMesh.h:39[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector2.h:[m[K In member function ‘[01m[KOgre::Vector2 Ogre::Vector2::normalisedCopy() const[m[K’:
+[01m[K/usr/include/OGRE/OgreVector2.h:533:28:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector2::Vector2(const Ogre::Vector2&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  533 |             Vector2 ret = *[01;35m[Kthis[m[K;
+      |                            [01;35m[K^~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector2.h:129:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector2[m[K’ has user-provided ‘[01m[KOgre::Vector2& Ogre::Vector2::operator=(const Ogre::Vector2&)[m[K’
+  129 |         inline Vector2& [01;36m[Koperator[m[K = ( const Vector2& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector2.h:535:20:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector2::Vector2(const Ogre::Vector2&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  535 |             return [01;35m[Kret[m[K;
+      |                    [01;35m[K^~~[m[K
+[01m[K/usr/include/OGRE/OgreVector2.h:129:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector2[m[K’ has user-provided ‘[01m[KOgre::Vector2& Ogre::Vector2::operator=(const Ogre::Vector2&)[m[K’
+  129 |         inline Vector2& [01;36m[Koperator[m[K = ( const Vector2& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreVector2.h:[m[K In member function ‘[01m[KOgre::Radian Ogre::Vector2::angleTo(const Ogre::Vector2&) const[m[K’:
+[01m[K/usr/include/OGRE/OgreVector2.h:581:11:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Radian::Radian(const Ogre::Radian&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  581 |    return [01;35m[Kangle[m[K;
+      |           [01;35m[K^~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreVector3.h:32[m[K,
+                 from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreMath.h:55:11:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Radian[m[K’ has user-provided ‘[01m[KOgre::Radian& Ogre::Radian::operator=(const Ogre::Radian&)[m[K’
+   55 |   Radian& [01;36m[Koperator[m[K = ( const Radian& r ) { mRad = r.mRad; return *this; }
+      |           [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreAnimation.h:36[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSkeleton.h:38[m[K,
+                 from [01m[K/usr/include/OGRE/OgreMesh.h:39[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:40[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreAnimationTrack.h:[m[K In member function ‘[01m[Kvirtual void Ogre::AnimationTrack::_applyBaseKeyFrame(const Ogre::KeyFrame*)[m[K’:
+[01m[K/usr/include/OGRE/OgreAnimationTrack.h:235:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbase[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  235 |   virtual void _applyBaseKeyFrame([01;35m[Kconst KeyFrame* base[m[K) {}
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~^~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreSceneQuery.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:42[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreSphere.h:[m[K In constructor ‘[01m[KOgre::Sphere::Sphere()[m[K’:
+[01m[K/usr/include/OGRE/OgreSphere.h:58:55:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   58 |         Sphere() : mRadius(1.0), mCenter(Vector3::ZERO[01;35m[K)[m[K {}
+      |                                                       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreSceneQuery.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:42[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreSphere.h:[m[K In constructor ‘[01m[KOgre::Sphere::Sphere(const Ogre::Vector3&, Ogre::Real)[m[K’:
+[01m[K/usr/include/OGRE/OgreSphere.h:64:46:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   64 |             : mRadius(radius), mCenter(center[01;35m[K)[m[K {}
+      |                                              [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreSceneQuery.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:42[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreRay.h:[m[K In constructor ‘[01m[KOgre::Ray::Ray()[m[K’:
+[01m[K/usr/include/OGRE/OgreRay.h:52:65:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   52 |         Ray():mOrigin(Vector3::ZERO), mDirection(Vector3::UNIT_Z[01;35m[K)[m[K {}
+      |                                                                 [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreSceneQuery.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:42[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreRay.h:52:65:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   52 |         Ray():mOrigin(Vector3::ZERO), mDirection(Vector3::UNIT_Z[01;35m[K)[m[K {}
+      |                                                                 [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreSceneQuery.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:42[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreRay.h:[m[K In constructor ‘[01m[KOgre::Ray::Ray(const Ogre::Vector3&, const Ogre::Vector3&)[m[K’:
+[01m[K/usr/include/OGRE/OgreRay.h:54:51:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   54 |             :mOrigin(origin), mDirection(direction[01;35m[K)[m[K {}
+      |                                                   [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreSceneQuery.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:42[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreRay.h:54:51:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   54 |             :mOrigin(origin), mDirection(direction[01;35m[K)[m[K {}
+      |                                                   [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreTextureUnitState.h:37[m[K,
+                 from [01m[K/usr/include/OGRE/OgrePass.h:37[m[K,
+                 from [01m[K/usr/include/OGRE/OgreTechnique.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreRenderQueueSortingGrouping.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:46[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreTexture.h:[m[K In member function ‘[01m[Kvirtual void Ogre::Texture::getCustomAttribute(const String&, void*)[m[K’:
+[01m[K/usr/include/OGRE/OgreTexture.h:384:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  384 |   virtual void getCustomAttribute([01;35m[Kconst String& name[m[K, void* pData) {}
+      |                                   [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/OGRE/OgreTexture.h:384:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpData[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  384 |   virtual void getCustomAttribute(const String& name, [01;35m[Kvoid* pData[m[K) {}
+      |                                                       [01;35m[K~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/OGRE/OgreRenderTarget.h:35[m[K,
+                 from [01m[K/usr/include/OGRE/OgreRenderSystem.h:42[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:57[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreViewport.h:[m[K In member function ‘[01m[Kvirtual void Ogre::Viewport::Listener::viewportCameraChanged(Ogre::Viewport*)[m[K’:
+[01m[K/usr/include/OGRE/OgreViewport.h:67:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kviewport[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   67 |    virtual void viewportCameraChanged([01;35m[KViewport* viewport[m[K) {}
+      |                                       [01;35m[K~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreViewport.h:[m[K In member function ‘[01m[Kvirtual void Ogre::Viewport::Listener::viewportDimensionsChanged(Ogre::Viewport*)[m[K’:
+[01m[K/usr/include/OGRE/OgreViewport.h:70:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kviewport[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   70 |    virtual void viewportDimensionsChanged([01;35m[KViewport* viewport[m[K) {}
+      |                                           [01;35m[K~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/usr/include/OGRE/OgreViewport.h:[m[K In member function ‘[01m[Kvirtual void Ogre::Viewport::Listener::viewportDestroyed(Ogre::Viewport*)[m[K’:
+[01m[K/usr/include/OGRE/OgreViewport.h:73:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kviewport[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   73 |    virtual void viewportDestroyed([01;35m[KViewport* viewport[m[K) {}
+      |                                   [01;35m[K~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/rviz/display_context.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/visualization_manager.h:41[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:29[m[K:
+[01m[K/opt/ros/noetic/include/rviz/frame_manager.h:[m[K In constructor ‘[01m[Krviz::FrameManager::CacheEntry::CacheEntry(const Ogre::Vector3&, const Ogre::Quaternion&)[m[K’:
+[01m[K/opt/ros/noetic/include/rviz/frame_manager.h:292:95:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Vector3::Vector3(const Ogre::Vector3&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  292 |     CacheEntry(const Ogre::Vector3& p, const Ogre::Quaternion& o) : position(p), orientation(o[01;35m[K)[m[K
+      |                                                                                               [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreVector3.h:134:25:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Vector3[m[K’ has user-provided ‘[01m[KOgre::Vector3& Ogre::Vector3::operator=(const Ogre::Vector3&)[m[K’
+  134 |         inline Vector3& [01;36m[Koperator[m[K = ( const Vector3& rkVector )
+      |                         [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/rviz/display_context.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/visualization_manager.h:41[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:29[m[K:
+[01m[K/opt/ros/noetic/include/rviz/frame_manager.h:292:95:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Ogre::Quaternion::Quaternion(const Ogre::Quaternion&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  292 |     CacheEntry(const Ogre::Vector3& p, const Ogre::Quaternion& o) : position(p), orientation(o[01;35m[K)[m[K
+      |                                                                                               [01;35m[K^[m[K
+In file included from [01m[K/usr/include/OGRE/OgreVector3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreMatrix3.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreNode.h:34[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneNode.h:33[m[K,
+                 from [01m[K/usr/include/OGRE/OgreSceneManager.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/render_panel.h:36[m[K,
+                 from [01m[K/home/s/scott_spaces/decadarobotics_devspace/src/ff_client/free_fleet/ff_rviz_plugins_ros1/src/ff_nav_goal_panel.cpp:28[m[K:
+[01m[K/usr/include/OGRE/OgreQuaternion.h:172:28:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KOgre::Quaternion[m[K’ has user-provided ‘[01m[KOgre::Quaternion& Ogre::Quaternion::operator=(const Ogre::Quaternion&)[m[K’
+  172 |         inline Quaternion& [01;36m[Koperator[m[K= (const Quaternion& rkQ)
+      |                            [01;36m[K^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library devel/lib/libff_rviz_plugins_ros1.so[0m
+[100%] Built target ff_rviz_plugins_ros1
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: "Release"
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/ff_rviz_plugins_ros1/lib/pkgconfig/ff_rviz_plugins_ros1.pc
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/ff_rviz_plugins_ros1/share/ff_rviz_plugins_ros1/cmake/ff_rviz_plugins_ros1Config.cmake
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/ff_rviz_plugins_ros1/share/ff_rviz_plugins_ros1/cmake/ff_rviz_plugins_ros1Config-version.cmake
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/ff_rviz_plugins_ros1/share/ff_rviz_plugins_ros1/package.xml
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/ff_rviz_plugins_ros1/lib/libff_rviz_plugins_ros1.so
+-- Set runtime path of "/home/s/scott_spaces/decadarobotics_devspace/install/ff_rviz_plugins_ros1/lib/libff_rviz_plugins_ros1.so" to ""
+-- Installing: /home/s/scott_spaces/decadarobotics_devspace/install/ff_rviz_plugins_ros1/share/ff_rviz_plugins_ros1/plugin_description.xml
