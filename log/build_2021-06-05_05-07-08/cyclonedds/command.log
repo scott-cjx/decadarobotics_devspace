@@ -1,6 +1,0 @@
-Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/cyclonedds': /usr/bin/cmake /home/s/scott_spaces/decadarobotics_devspace/src/cyclonedds -DCMAKE_BUILD_TYPE=Release -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/home/s/scott_spaces/decadarobotics_devspace/install/cyclonedds
-Invoked command in '/home/s/scott_spaces/decadarobotics_devspace/build/cyclonedds' returned '0': /usr/bin/cmake /home/s/scott_spaces/decadarobotics_devspace/src/cyclonedds -DCMAKE_BUILD_TYPE=Release -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/home/s/scott_spaces/decadarobotics_devspace/install/cyclonedds
-Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/cyclonedds': /usr/bin/cmake --build /home/s/scott_spaces/decadarobotics_devspace/build/cyclonedds -- -j4 -l4
-Invoked command in '/home/s/scott_spaces/decadarobotics_devspace/build/cyclonedds' returned '0': /usr/bin/cmake --build /home/s/scott_spaces/decadarobotics_devspace/build/cyclonedds -- -j4 -l4
-Invoking command in '/home/s/scott_spaces/decadarobotics_devspace/build/cyclonedds': /usr/bin/cmake --install /home/s/scott_spaces/decadarobotics_devspace/build/cyclonedds
-Invoked command in '/home/s/scott_spaces/decadarobotics_devspace/build/cyclonedds' returned '0': /usr/bin/cmake --install /home/s/scott_spaces/decadarobotics_devspace/build/cyclonedds
