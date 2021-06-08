@@ -23,6 +23,9 @@
 	path = src/caato
 	url = https://github.com/siot-decada-robotics/caato.git
 	branch = scott-devel
+[submodule "src/locust"]
+	path = src/locust
+	url = https://github.com/siot-decada-robotics/locust.git
 [submodule "src/ira_laser_tools"]
 	path = src/ira_laser_tools
 	url = https://github.com/iralabdisco/ira_laser_tools.git
